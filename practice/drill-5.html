@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>drill 5</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>form</h1>
+        <main>
+            <section>
+                <h2>form 1</h2>
+                <form name="book-visit" action="book.php" method="get">
+
+                    <div>
+                        <label for="member-no">member-no</label>
+                        <input type="text" id="member-no" name="member-no" required>
+                    </div>
+
+                     <div>
+                        <label for="full-name">full-name</label>
+                        <input type="text" id="full-name" name="full-name" required>
+                    </div>
+                     <div>
+                        <label for="phone-no">phone-no</label>
+                        <input type="number" id="phone-no" name="phone-no" required>
+                    </div>
+                     <div>
+                        <label for="email">email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                     <div>
+                        <label for="route">route</label>
+                       <select name="route" id="route">
+                        <option value="">choose your route</option>
+                        <option value="kiserian">kiserian</option>
+                        <option value="Ngong">Ngong</option>
+                        <option value="isisnya">isisnya</option>
+                       </select>
+                    </div>
+
+                    <div>
+                        <input type="button" value="submit">
+                        <input type="reset" value="reset">
+                    </div>
+                </form>
+            </section>
+        </main>
+    </body>
+
+</html>

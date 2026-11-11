@@ -1,0 +1,15 @@
+body{
+
+}
+
+h1,h2,h3{
+    border-width: 2px;
+    border-color: green;
+    border-style: solid:
+}
+strong,em,a{
+    border: 3px solid brown;
+}
+main{
+    display: none;
+}
